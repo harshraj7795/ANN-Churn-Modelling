@@ -55,6 +55,9 @@ cl.add(Dense(units=6,kernel_initializer='he_uniform',activation='relu',input_dim
 #second hidden layer
 cl.add(Dense(units = 6, kernel_initializer = 'he_uniform',activation='relu'))
 
+#third hidden layer
+cl.add(Dense(units = 6, kernel_initializer = 'he_uniform',activation='relu'))
+
 #output layer
 cl.add(Dense(units = 1, kernel_initializer = 'glorot_uniform', activation = 'sigmoid'))
 
